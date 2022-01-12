@@ -1,14 +1,40 @@
 <template>
   <header>
-    <div class="topHeader">
-      <div class="left">
-        <span>We have a 95% Successful Pass Rate!</span>
-      </div>
-      <div class="rigth">
-        <i class="fas fa-phone"></i>
-        <span>Give us a call to book your tuition! 1-800-555-555</span>
+
+    <div class="topHeader d-flex align-items-center">
+      <div class="container d-flex justify-content-between">
+        <div class="left">
+          <span>We have a 95% Successful Pass Rate!</span>
+        </div>
+        <div class="rigth">
+          <i class="fas fa-phone "></i>
+          <span class="ms-3">Give us a call to book your tuition! 1-800-555-555</span>
+        </div>
       </div>
     </div>
+
+    <div class="backgroundNavbar">
+      <div class="container d-flex justify-content-between align-items-center pt-4 pb-4">
+
+        <div class="logo">
+          <img src="../../assets/img/avada-drivers-logo-2x-300x58.png" alt="logo">
+        </div>
+
+        <div class="navbar">
+          <nav>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">prices</a></li>
+            <li><a href="#">courses</a></li>
+            <li><a href="#">locations</a></li>
+            <li><a href="#">blog</a></li>
+            <li><button class="btnGreen">book now</button></li>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+
     
   </header>
 </template>
@@ -37,12 +63,21 @@ header{
   font-size: 12px;
   height: 40px;
 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
-.fa-phone{
-  margin-right: 10px;  
+
+.backgroundNavbar{
+  background-color: rgba($color: #353637, $alpha: 0.5);
+}
+
+
+li{
+    text-transform: uppercase;
+    display: inline;
+    margin: 20px;
+
+  & a{
+    color: #ffffff;
+  }
 }
 
 </style>
