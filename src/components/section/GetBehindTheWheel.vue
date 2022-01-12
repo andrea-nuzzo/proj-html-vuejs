@@ -6,7 +6,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh.</p>
     </div>
     <div class="rigth">
-        <cardRequest/>
+        <cardRequest class="move"/>
     </div>
 </div>
 </template>
@@ -25,6 +25,8 @@ components:{
 
 <style lang="scss" scoped>
 
-
+.move{
+    top: -50px;
+}
 
 </style>
