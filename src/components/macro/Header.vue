@@ -14,7 +14,9 @@ export default {
 <style lang="scss" scoped>
 header{
     height: 750px;
-    background-color: palevioletred;
+    background-image: url('../../assets/img/homepage-hero-background.jpg');
+    background-position: center;
+    background-size: cover;
   }
 
 </style>
