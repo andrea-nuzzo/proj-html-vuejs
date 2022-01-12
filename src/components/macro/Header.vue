@@ -30,11 +30,16 @@
             <li><a href="#">blog</a></li>
             <li><button class="btnGreen">book now</button></li>
           </nav>
-        </div>
-
-      </div>
+        </div>        
+      </div>      
     </div>
-
+    
+    <div class="title">
+      <div class="container d-flex flex-column justify-content-center h-100">
+          <h1>Drive with Avada</h1>
+          <h2>We offer the finest driving tuition money can buy</h2>
+        </div> 
+    </div>
     
   </header>
 </template>
@@ -79,5 +84,26 @@ li{
     color: #ffffff;
   }
 }
+
+.title {
+  height: 602px;
+}
+
+.container{
+  & h1, h2{
+    color:white
+    
+  }
+
+  & h1{
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  & h2{
+    font-size: 18px;
+    font-weight: 300;
+  }
+} 
 
 </style>
