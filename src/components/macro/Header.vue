@@ -96,12 +96,13 @@ li{
   }
 
   & h1{
+    font-size: 65px;
     font-weight: bold;
     margin-bottom: 15px;
   }
 
   & h2{
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 300;
   }
 } 

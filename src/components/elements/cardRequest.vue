@@ -22,7 +22,7 @@ export default {
 @import '../../assets/style/partials/variables.scss';
 
 .card{
-    width: 500px;
+    width: 550px;
     padding: 50px;
     text-align: center;
     border: none;
