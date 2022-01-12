@@ -30,6 +30,19 @@ a{
     text-decoration: none;
 }
 
+.title{
+    font-size: $fontSizeTitle;
+    font-weight: 600;
+}
+
+.subTitle{
+    font-size:$fontSizeSubTitle;
+}
+
+.text{
+    font-size: $fontSizeText;
+}
+
 /*---------------------
       Buttons
 ---------------------*/

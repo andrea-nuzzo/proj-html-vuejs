@@ -6,7 +6,7 @@
     <input type="email" placeholder="Email*">
     <input type="tel" placeholder="Thelephone">
     <input type="text" placeholder="Location">
-    <div class="btnGreen">request a call back</div>
+    <div class="btnGreen">request a callback</div>
 
   </div>
 </template>
@@ -54,7 +54,7 @@ input{
     font-size: 12px;
 }
 .btnGreen{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
