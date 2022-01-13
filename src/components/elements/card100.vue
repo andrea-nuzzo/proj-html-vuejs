@@ -5,15 +5,15 @@
         <circle cx="100" cy="100" r="100" />
         <circle cx="100" cy="100" r="100" />
       </svg>
-      <div class="pecentage">95%</div>
-      <div class="typePecentage">PASS RATE</div>
+      <div class="pecentage">100%</div>
+      <div class="typePecentage">REFERRAL RATE</div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-    name: 'card95',
+    name: 'card100',
 
 
 }
@@ -53,6 +53,7 @@ export default {
   transform: translate(-50%,0);
 }
 
+
 .test {
 	width: 100%;
 	height: 100%;
@@ -75,9 +76,12 @@ svg {
 
 .test circle:nth-child(2) {
 	stroke: $primaryColor;
-	stroke-dasharray: 750;
+	stroke-dasharray: 800;
 	stroke-dashoffset: 160;
 }
+
+
+
 
 
 

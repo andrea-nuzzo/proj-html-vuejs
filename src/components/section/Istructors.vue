@@ -59,6 +59,10 @@ export default {
 <style lang="scss" scoped>
 @import '../../assets/style/partials/variables.scss';
 
+.title{
+    margin-top: 400px;
+}
+
 h2{
     margin: 80px 0px 30px 0px;
 }

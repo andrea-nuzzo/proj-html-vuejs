@@ -5,16 +5,15 @@
         <circle cx="100" cy="100" r="100" />
         <circle cx="100" cy="100" r="100" />
       </svg>
-      <div class="pecentage">95%</div>
-      <div class="typePecentage">PASS RATE</div>
+      <div class="pecentage">0%</div>
+      <div class="typePecentage">ACCIDENT RATE</div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-    name: 'card95',
-
+    name: 'card0',
 
 }
 </script>
@@ -53,6 +52,7 @@ export default {
   transform: translate(-50%,0);
 }
 
+
 .test {
 	width: 100%;
 	height: 100%;
@@ -64,20 +64,23 @@ svg {
 }
 
 .test circle {
-  position: absolute;
+    top: 200px;
 	transform: rotate(-90deg);
 	transform-origin: center;
 	fill: none;
-	stroke: #ddd;
-	stroke-width: 8px;
-	stroke-linecap: round;
+	stroke: $primaryColor;
+    stroke-width: 8px;
+    stroke-linecap: round;
 }
 
 .test circle:nth-child(2) {
 	stroke: $primaryColor;
-	stroke-dasharray: 750;
+    stroke: #ddd;
+	stroke-dasharray: 770;
 	stroke-dashoffset: 160;
 }
+
+
 
 
 
