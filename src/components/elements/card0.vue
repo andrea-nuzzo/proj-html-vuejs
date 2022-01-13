@@ -47,7 +47,7 @@ export default {
 .typePecentage{
   color: $primaryColorText;
   position: absolute;
-  top: 350px;
+  top: 380px;
   left: 50%;
   transform: translate(-50%,0);
 }
@@ -59,12 +59,12 @@ export default {
 }
 
 svg {
+    margin: 50px 0px 0px -50px ;
 	width: 100%;
 	height: 100%;
 }
 
 .test circle {
-    top: 200px;
 	transform: rotate(-90deg);
 	transform-origin: center;
 	fill: none;
