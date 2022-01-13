@@ -1,12 +1,12 @@
 <template>
-  <div class="card d-flex flex-column align-items-center">
+  <div class="card">
     <div class="test">
-      <svg class="d-flex justify-content-center">
+      <svg class="h-100">
         <circle cx="100" cy="100" r="100" />
         <circle cx="100" cy="100" r="100" />
       </svg>
-      <div>95%</div>
-      <div>PASS RATE</div>
+      <div class="pecentage">95%</div>
+      <div class="typePecentage">PASS RATE</div>
     </div>
   </div>
 </template>
@@ -36,6 +36,21 @@ export default {
     
 }
 
+.pecentage{
+  color: $primaryColorText;
+  font-size: 50px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+}
+
+.typePecentage{
+  color: $primaryColorText;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+
 .test {
 	width: 100%;
 	height: 100%;
@@ -47,7 +62,8 @@ svg {
 }
 
 .test circle {
-	transform: rotate(-90deg) translate(10px, 10px);
+  position: absolute;
+	transform: rotate(-90deg) translate(75px, 75px);
 	transform-origin: center;
 	fill: none;
 	stroke: #ddd;
