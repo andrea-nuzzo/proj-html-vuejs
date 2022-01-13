@@ -25,7 +25,7 @@
             <li><a href="#">home</a></li>
             <li><a href="#">about</a></li>
             <li><a href="#">prices</a></li>
-            <li><a href="#">courses</a></li>
+            <li><a href="#">courses</a> <span>NEW</span></li>
             <li><a href="#">locations</a></li>
             <li><a href="#">blog</a></li>
             <li><button class="btnGreen">book now</button></li>
@@ -89,6 +89,15 @@ a:hover{
   color: $primaryColor;
   
 }
+li span{
+  color: white;
+  background-color: $primaryColor;
+  font-size: 12px;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 0.5rem;
+}
+
 
 li:hover:not(:last-child){
   border-bottom: 5px solid $primaryColor;
