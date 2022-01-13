@@ -85,6 +85,16 @@ li{
   }
 }
 
+a:hover{
+  color: $primaryColor;
+  
+}
+
+li:hover:not(:last-child){
+  border-bottom: 5px solid $primaryColor;
+  padding-bottom: 10px;
+}
+
 .title {
   height: 602px;
 }
