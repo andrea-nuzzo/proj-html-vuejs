@@ -1,19 +1,24 @@
 <template>
   <div class="card">
-      <img src="../../assets/img/instructor-mikehart-400x254.jpg" alt="">
-      <div class="name">Mike Hart</div>
+      <img :src="instructorData.img" :alt="instructorData.name">
+      <div class="name">{{instructorData.name}}</div>
       <div class="socialMedia">
           <span><i class="fab fa-facebook-f"></i></span>
           <span><i class="fab fa-twitter"></i></span>
           <span><i class="fab fa-instagram"></i></span>
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>{{instructorData.description}}</p>
   </div>
 </template>
 
 <script>
 export default {
-    name: 'cardInstructors'
+    name: 'cardInstructors',
+
+    props:{
+        instructorData: Object
+    },
+
 }
 </script>
 
@@ -30,6 +35,21 @@ export default {
     text-align: center;
     border-radius:  .5rem;
     box-shadow: 10px 10px 45px -8px rgba(0,0,0,0.20);
+    cursor: pointer;
+    
+}
+
+.mouseHover{
+    position: relative;
+    top: -30px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 2rem;
+    color: white;
+    background-color: $primaryColor;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 
 .name{

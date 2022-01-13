@@ -13,13 +13,12 @@
             </div>
         </div>
         <div class="d-flex justify-content-between">
-            <cardInstructors class="move"/>
-            <cardInstructors class="move"/>
-            <cardInstructors class="move"/>
+            <cardInstructors class="move" v-for="(instructor, index) in instructors" :key="index" :instructorData="instructor"/>
         </div>
       </div>
   </div>
 </template>
+
 
 <script>
 import cardInstructors from '../elements/cardInstructors.vue'
@@ -29,11 +28,35 @@ export default {
     components:{
         cardInstructors,
     },
+
+    data(){
+        return{
+            instructors:[
+                {
+                    name: 'Mike Hart',
+                    img: require('../../assets/img/instructor-mikehart-400x254.jpg'),
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                },
+                {
+                    name: 'John Smith',
+                    img: require('../../assets/img/instructor-johnsmith-400x254.jpg'),
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                },
+                {
+                    name: 'Angela Hart',
+                    img: require('../../assets/img/instructor-angelahart-400x254.jpg'),
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                },
+            ],
+        }
+    },
 }
 </script>
 
-<style lang="scss" scoped>
 
+
+
+<style lang="scss" scoped>
 @import '../../assets/style/partials/variables.scss';
 
 h2{
