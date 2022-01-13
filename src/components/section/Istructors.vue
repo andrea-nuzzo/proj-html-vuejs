@@ -13,9 +13,9 @@
             </div>
         </div>
         <div class="d-flex justify-content-between">
-            <cardInstructors/>
-            <cardInstructors/>
-            <cardInstructors/>
+            <cardInstructors class="move"/>
+            <cardInstructors class="move"/>
+            <cardInstructors class="move"/>
         </div>
       </div>
   </div>
@@ -47,6 +47,9 @@ h2{
 
 .btnGreen {
     width: 75%;
+}
+.move{
+    bottom: -70px;
 }
 
 </style>
