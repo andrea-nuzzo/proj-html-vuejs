@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      <card95/>
+      <card95 class="move"/>
   </div>
 </template>
 
@@ -16,8 +16,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .container{
-        height: 500px;
-        background-color: red;
-    }
+
 </style>
