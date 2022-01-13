@@ -15,7 +15,7 @@ export default {
 
 <style lang="scss" scoped>
     .background{
-        height: 1000px;
+        height: 900px;
         background-image: url('../../assets/img/testimonial-background.jpg');
         background-position: center;
         background-size: cover;
