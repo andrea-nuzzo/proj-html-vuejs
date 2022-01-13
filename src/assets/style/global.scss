@@ -55,7 +55,10 @@ a{
     border: none;
     border-radius: 2rem;
     text-align: center;
-    
+}
+
+.btnGreen:hover{
+    background-color: $btnOneHoverColor;
 }
 
 .btnGray{
@@ -66,5 +69,9 @@ a{
     border: 3px solid $btnTwoColor;
     border-radius: 2rem;
     text-align: center;
-    
+}
+
+.btnGray:hover{
+    color: $btnTwoHoverColor;
+    border: 3px solid $btnTwoHoverColor;
 }
