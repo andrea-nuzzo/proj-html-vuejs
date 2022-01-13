@@ -76,7 +76,8 @@ data () {
     left: 0;
     bottom: -479px; 
     width: 100%;
-    height: 100px
+    height: 100px;
+    z-index: -1;
 }
 .typeOfCourses img{
     width: 180px;
@@ -94,7 +95,6 @@ data () {
 .btnGray{
     width: 70%;
     font-size: 10px;
-    text-align: center;
     margin: 0 auto;
 }
 
